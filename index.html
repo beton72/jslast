@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Первая страница</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="banner">
+      <img src="logo1.png" alt="Логотип">
+    </div>
+  </header>
+
+  <main>
+    <div class="block">
+      <img src="выф.png" alt="Фон">
+      <div class="content">
+        <h2><b>ЗооКорм</b></h2>
+        <p>Широкий выбор качественных кормов для ваших питомцев. Заботимся о здоровье и счастье ваших животных уже более 10 лет</p>
+      </div>
+    </div>
+
+    <div class="catalog">
+      <div class="category" onclick="showItems('herbivores')">Травоядные</div>
+      <div class="category" onclick="showItems('carnivores')">Плотоядные</div>
+
+      <div id="herbivores" class="items hidden">
+        <div class="item" onclick="window.location.href='index1.html'">
+          <img src="046fa0260dd2ecacc82751834537d708.jpg" alt="Травоядный 1">
+          <div class="item-title">Растительные</div>
+        </div>
+        <div class="item" onclick="window.location.href='index1.html'">
+          <img src="vby.jpg" alt="Травоядный 2">
+          <div class="item-title">Минеральные</div>
+        </div>
+        <div class="item" onclick="window.location.href='index1.html'">
+          <img src="3-5.jpg" alt="Травоядный 3">
+          <div class="item-title">Синтезированные</div>
+        </div>
+      </div>
+
+      <div id="carnivores" class="items hidden">
+        <div class="item" onclick="window.location.href='index1.html'">
+          <img src="мы.webp" alt="Плотоядный 1">
+          <div class="item-title">Мороженые</div>
+        </div>
+        <div class="item" onclick="window.location.href='index1.html'">
+          <img src="behnbates_urun_1140x705_516.jpg" alt="Плотоядный 2">
+          <div class="item-title">Минеральные</div>
+        </div>
+        <div class="item" onclick="window.location.href='index1.html'">
+          <img src="sarancha.jpg" alt="Плотоядный 3">
+          <div class="item-title">Живые</div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+</body>
+</html>

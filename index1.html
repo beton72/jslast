@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Вторая страница</title>
+  <link rel="stylesheet" type="text/css" href="style1.css">
+  <script src="script1.js"></script>
+</head>
+<body>
+  
+
+    <div class="form">
+      <h3>Какое количество продукта вы хотите заказать?</h3>
+      <input type="range" id="quantityRange" min="1" max="100" value="1" oninput="updateQuantity()">
+      <p id="quantityCounter" style="font-size: 20px;">1</p>
+      <p style="font-size: 25px;">Единиц товара</p>
+      <button onclick="window.location.href='index2.html'">Заказать</button>
+    </div>
+  </main>
+
+
+</body>
+</html>

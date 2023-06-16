@@ -1,0 +1,38 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  .form {
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  input[type="range"] {
+    width: 300px;
+    margin-top: 20px;
+  }
+  
+  #quantityCounter {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: orange;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: darkorange;
+  }

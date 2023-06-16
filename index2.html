@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Index 2</title>
+  <link rel="stylesheet" type="text/css" href="style2.css">
+  <script src="script2.js"></script>
+</head>
+<body>
+  <div class="form">
+    <h2>Введите данные:</h2>
+    <label for="fio">ФИО:</label>
+    <input type="text" id="fio">
+
+    <label for="phone">Телефон:</label>
+    <input type="tel" id="phone">
+
+    <label for="address">Адрес:</label>
+    <input type="text" id="address">
+
+    <label for="card">Данные карты:</label>
+    <input type="text" id="card">
+
+    <button onclick="submitData()">Ввести данные</button>
+  </div>
+
+  <div class="table">
+    <table>
+      <thead>
+        <tr>
+          <th>ФИО</th>
+          <th>Телефон</th>
+          <th>Адрес</th>
+          <th>Данные карты</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+
+    <button onclick="confirmData()">Данные верны</button>
+  </div>
+
+  <div id="overlay" class="overlay" style="display: none;">
+    <p>Ожидайте звонок</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Магазин кормов для животных</p>
+  </footer>
+</body>
+</html>
